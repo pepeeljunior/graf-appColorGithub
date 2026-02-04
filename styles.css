@@ -1,0 +1,29 @@
+body.bg-gradient {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.app-card {
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    background: #fff;
+}
+
+.big-picker {
+    width: 90px;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.color-preview {
+    height: 140px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    transition: background 0.3s ease;
+}
+
+.control-group label {
+    font-weight: 600;
+}
